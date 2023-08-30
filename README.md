@@ -13,7 +13,6 @@
 
 1. Добавьте ваш токен Telegram в `.env` файл в папке `telegram_bot_service/`.
 2. Добавьте путь к вашей модели в `.env` файл в папке `model_service/`.
-3. docker-compose up --build -d
 
 
 
