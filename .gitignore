@@ -1,0 +1,32 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environments
+venv/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+
+# IDE-related files
+.idea/
+.vscode/
+
+# Data files
+*.json
+*.csv
+
+# Docker files
+*.dockerignore
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# Other
+.DS_Store

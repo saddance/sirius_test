@@ -1,0 +1,16 @@
+version: '3'
+services:
+  model_service:
+    build: ./model_service
+    volumes:
+      - ./output:/model/output
+    env_file:
+      - ./model_service/.env
+    ports:
+      - "5000:5000"
+  telegram_bot_service:
+    build: ./telegram_bot_service
+    env_file:
+      - ./telegram_bot_service/.env
+    ports:
+      - "4000:4000"
